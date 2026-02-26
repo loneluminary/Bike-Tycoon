@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/CODE/Scripts/Utilities/Editor/Icon%20Generator/IconThumbnailEditor.uss?fileID=7433441132597879392&amp;guid=943d70db56e2621aa8d403738c5f3eb0&amp;type=3#IconThumbnailEditor"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; width: 100%; height: 100%; flex-shrink: 0;">
+        <ui:ListView name="List" show-bound-collection-size="false" header-title="Elements" show-add-remove-footer="false" allow-add="true" allow-remove="true" show-foldout-header="false" horizontal-scrolling="false" reorderable="false" show-border="true" style="width: 280px; background-color: rgb(56, 56, 56); color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: rgb(32, 32, 32); border-right-color: rgb(32, 32, 32); border-top-color: rgb(32, 32, 32); border-bottom-color: rgb(32, 32, 32); flex-grow: 0; flex-wrap: nowrap; flex-direction: column; flex-shrink: 1;"/>
+        <ui:VisualElement name="Content" style="flex-grow: 1; background-color: rgb(32, 32, 32); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); flex-direction: column;">
+            <ui:VisualElement name="Item" style="flex-grow: 0; flex-direction: row; align-self: stretch; align-content: stretch; justify-content: flex-start; height: auto;">
+                <ui:VisualElement name="Output" style="width: 256px; height: 256px; aspect-ratio: 1; align-self: stretch; justify-content: flex-start; align-content: flex-end; flex-grow: 0; flex-shrink: 0; align-items: stretch; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+                    <Bindings>
+                        <ui:DataBinding property="style.backgroundImage" data-source-path="previewTexture" binding-mode="ToTarget"/>
+                    </Bindings>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-shrink: 0; aspect-ratio: auto; justify-content: flex-start; align-items: stretch; align-self: stretch; align-content: stretch; height: auto;">
+                    <ui:VisualElement name="Info" style="flex-grow: 0; flex-direction: row; flex-shrink: 1; align-self: auto; justify-content: flex-start; align-items: flex-start;">
+                        <ui:Label text="Label" name="Label" style="font-size: 24px; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: middle-left; align-self: flex-start; justify-content: flex-start; align-items: stretch; flex-grow: 1; flex-direction: row; height: 30px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 10px; padding-bottom: 0; padding-left: 10px; display: flex;"/>
+                        <ui:Button text="Save" name="SaveButton" style="height: 30px; width: 60px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; color: rgb(255, 255, 255); background-color: rgb(88, 88, 88); -unity-font-style: bold; display: flex;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ObjectControls" style="flex-grow: 0; margin-top: 10px;">
+                        <ui:Slider label="Object Rotation" value="42" high-value="100" name="ObjectRotation" style="flex-grow: 0;"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="CameraControls" style="flex-grow: 1; display: flex; overflow: visible; flex-shrink: 0; flex-direction: column;">
+                <ui:Slider label="Zoom&#10;" value="42" high-value="100" name="CameraDistance"/>
+                <ui:Vector3Field label="Camera Position" name="CameraPosition"/>
+                <ui:Vector3Field label="Camera Rotation" name="CameraRotation" style="height: auto;"/>
+                <uie:ColorField label="Background" value="rgba(0, 0, 0, 0)" hdr="false" show-eye-dropper="false" name="BackgroundColor"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

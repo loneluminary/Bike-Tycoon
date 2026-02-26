@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ebfa5a3163545b9bfbe129f98558f01, type: 3}
+  m_Name: Salesperson
+  m_EditorClassIdentifier: Assembly-CSharp::StaffData
+  StaffName: Ellie
+  StaffType: 0
+  StaffIcon: {fileID: 21300000, guid: 73e8c32a47e537f639c401eefbd92626, type: 3}
+  StaffModel: {fileID: 8915187125865702422, guid: 6d9b63d82c988f15ea1b1a143303c206, type: 3}
+  HireCost: 1000
+  UpgradeCostPerLevel: 500
+  SaleSpeedBonus: 0.1
+  CustomerAttractionBonus: 0.15
+  ProfitBonus: 0.05
+  MergeSpeedBonus: 0.2
+  MaxLevel: 10

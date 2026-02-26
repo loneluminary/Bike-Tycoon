@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e554d3c2fc292488cff3c7924332f2, type: 3}
+  m_Name: Loading Screen Settings
+  m_EditorClassIdentifier: 
+  settingsName: Simple Settings
+  tipAnimatorPseudoClassName: heightZero
+  loadingLabelAnimatorPseudoClassName: fadeIn
+  continueLabelAnimatorPseudoClassName: fadeIn
+  backgroundScaleAnimatorPseudoClassName: scaleUp
+  hideBar: 0
+  defaultLoadingText: Loading...
+  showPercentage: 1
+  showSpinner: 1
+  spinnerSpeed: 1
+  spinnerIcon: {fileID: -657778093, guid: 917b62a0c0e7bdc4a8669116f5c98233, type: 3}
+  backgrounds:
+  - {fileID: 21300000, guid: 505c815b97362ccb6a06d145239334aa, type: 3}
+  backgroundDisplayLength: 6
+  enableBackgroundZoom: 1
+  showTips: 0
+  tips:
+  - Place bikes strategically - customers browse nearby stations first!
+  - Higher rarity bikes = bigger profits, but they take longer to sell
+  - Check the weekly race schedule - don't miss out on exclusive discounts!
+  - Balance your inventory - stock bikes across all price ranges
+  - Upgrade rooms in segments - buy only what you need right now
+  - More staff = faster service = happier customers = more sales!
+  - Each room upgrade unlocks in pieces - prioritize what helps most
+  - Win races to unlock 50% off brand deals - huge savings!
+  - VIP customers spend more - make sure your gallery looks impressive
+  - Bikes with high Speed sell faster in races, but Handling matters in Circuit tracks
+  - Marketing campaigns stack with room bonuses for maximum effect
+  - Brand partnerships give exclusive bikes - build reputation to unlock more
+  - 'Test Drive Center boosts purchase chances - upgrade it early! '
+  - Legendary bikes are rare but worth the investment for collectors
+  - Entrance upgrades affect ALL customers - invest here for big returns
+  - Higher Acceleration bikes dominate Drag races - choose wisely!
+  - 'Upgrade room aesthetics to attract wealthier customers '
+  - 'Staff patience matters - upgrade entrance to keep customers happy longer '
+  - 'Launch multiple marketing campaigns simultaneously for explosive growth '
+  - 'Customers wait in line - upgrade entrance to increase their patience '
+  - 'Each race type favors different bike stats - read the descriptions! '
+  - 'Complete room levels to unlock new content and decorations '
+  - 'Brand reputation unlocks better partnership deals over time '
+  - 'Staff can only help one customer at a time - hire more for busy days '
+  - 'Weekly races reset every 7 days - plan your schedule! '
+  - 'Segment upgrades let you customize your room growth path '
+  - 'Marketing Room campaigns are temporary - use them strategically! '
+  - 'Test drives increase purchase chance but need good bikes available '
+  - 'Room upgrades carry over - you never lose your progress! '
+  - '"Every bike has a buyer - you just need to find them!" - Pro Dealer '
+  - 'The smell of new tires in the morning... that''s the smell of profit! '
+  - 'Some say the perfect gallery has both style AND selection '
+  - 'A gallery without customers is just an expensive parking lot '
+  - 'Behind every great bike sale is a well-organized showroom '
+  - Speed sells bikes, but reputation sells brands
+  - 'Your first million starts with your first sale. Get rolling! '
+  - 'Customers don''t buy bikes - they buy dreams. Display accordingly! '
+  - 'The best upgrade is the one that makes you money back fastest '
+  - 'Race hard, sell harder. That''s the dealer way. '
+  tipsTitle: Tip
+  tipDisplayLength: 1
+  requireInputToContinue: 0
+  continueText: Continue

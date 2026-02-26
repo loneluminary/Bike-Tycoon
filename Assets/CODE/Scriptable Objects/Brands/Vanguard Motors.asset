@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aa677824c44f698b03ce0bdeb6c2e6, type: 3}
+  m_Name: Vanguard Motors
+  m_EditorClassIdentifier: Assembly-CSharp::BrandData
+  BrandName: Vanguard Motors
+  BrandLogo: {fileID: -954289452, guid: 7467efbba081346368dcd8947bc29647, type: 3}
+  BasicDealCost: 7000
+  SilverPartnerCost: 25000
+  GoldPartnerCost: 100000
+  ExclusivePartnerCost: 0
+  BasicRoyalty: 0.1
+  SilverRoyalty: 0.07
+  GoldRoyalty: 0.05
+  ExclusiveRoyalty: 0.03
+  SilverRequirement: 50
+  GoldRequirement: 200
+  exclusiveRequirement: 500
+  BasicBikes:
+  - {fileID: 11400000, guid: 0ee4820765d45694c80270d56da7438c, type: 2}
+  - {fileID: 11400000, guid: 6dee162fd17f2f243bacfeecfd4e1883, type: 2}
+  SilverBikes: []
+  GoldBikes: []
+  ExclusiveBikes: []
+  ExclusiveChallenges:
+  - 
+  - 
+  - 

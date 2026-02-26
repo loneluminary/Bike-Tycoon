@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486746c4babc4770b6142a5f49ce454a, type: 3}
+  m_Name: Bike (10)
+  m_EditorClassIdentifier: Assembly-CSharp::BikeData
+  ID: 9
+  BikeName: Mach One
+  BrandData: {fileID: 11400000, guid: 88a23b8e668f3f54a9dd34c006d06083, type: 2}
+  BikeIcon: {fileID: 21300000, guid: f45a090eed915c6358fa82babd118e9c, type: 3}
+  BikePrefab: {fileID: 2441611125030525103, guid: c8423242bdaad146a9c40467e755e7bf, type: 3}
+  Upgrades:
+  - {fileID: 2100000, guid: 92a453970775fd04a99f6a66bb715fdb, type: 2}
+  - {fileID: 2100000, guid: a90622ec844b23c45beec8ad3c18b2ba, type: 2}
+  - {fileID: 2100000, guid: da6cefc1b6fabaf4cb05d18e7b5631f5, type: 2}
+  BasePrice: 1700
+  BulkQuantity: 20
+  Speed: 40
+  Handling: 30
+  Acceleration: 40
+  Durability: 20
+  Rarity: 2

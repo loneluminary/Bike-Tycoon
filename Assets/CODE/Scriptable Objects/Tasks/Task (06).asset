@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe5db695b3f4af497fe2823afae5443, type: 3}
+  m_Name: Task (06)
+  m_EditorClassIdentifier: Assembly-CSharp::TaskSO
+  TaskTitle: New Look
+  TaskDescription: Level Up a room!
+  TaskIcon: {fileID: 1300737546, guid: 917b62a0c0e7bdc4a8669116f5c98233, type: 3}
+  TaskCompleteIcon: {fileID: 945460584, guid: 917b62a0c0e7bdc4a8669116f5c98233, type: 3}
+  Type: 11
+  RequiredSales: 10
+  TargetBrand: {fileID: 0}
+  RequiredBrandSales: 5
+  RequiredStaffCount: 2
+  TargetStaffType: 0
+  RequiredSpecificStaff: 1
+  RequiredStaffRoomID: 0
+  RequiredStaffInRoom: 2
+  RequiredBikePurchases: 10
+  TargetBike: {fileID: 0}
+  RequiredSpecificBikes: 3
+  RequiredPlacedBikes: 8
+  RequiredUpgrades: 3
+  RequiredCash: 25000
+  RequiredBrandDeals: 1
+  RequiredRoomLevel: 2
+  CashReward: 2300
+  TimeLimit: 0
