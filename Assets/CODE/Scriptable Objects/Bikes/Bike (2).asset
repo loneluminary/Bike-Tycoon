@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486746c4babc4770b6142a5f49ce454a, type: 3}
+  m_Name: Bike (2)
+  m_EditorClassIdentifier: Assembly-CSharp::BikeData
+  ID: 1
+  BikeName: Urban Pulse
+  BrandData: {fileID: 11400000, guid: 01d31d740f31e0644a7d3ad639f1b6ce, type: 2}
+  BikeIcon: {fileID: 21300000, guid: 7742bfa4f8bc87c41bcc4d8974af4d96, type: 3}
+  BikePrefab: {fileID: 5799606148512557233, guid: 198ab0d114998c6b19c320e640cd3efc, type: 3}
+  Upgrades:
+  - {fileID: 2100000, guid: a7fe4d25c043b874685c4b8795557177, type: 2}
+  - {fileID: 2100000, guid: cbcc622d38c214d4a8c27aa8416811ee, type: 2}
+  - {fileID: 2100000, guid: 473fcb0b4b56b3b48a5c8aac0275fac6, type: 2}
+  BasePrice: 1500
+  BulkQuantity: 7
+  Speed: 33
+  Handling: 30
+  Acceleration: 40
+  Durability: 20
+  Rarity: 3

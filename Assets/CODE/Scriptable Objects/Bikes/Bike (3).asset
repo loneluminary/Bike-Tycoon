@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486746c4babc4770b6142a5f49ce454a, type: 3}
+  m_Name: Bike (3)
+  m_EditorClassIdentifier: Assembly-CSharp::BikeData
+  ID: 2
+  BikeName: Dirt Demon
+  BrandData: {fileID: 11400000, guid: a3c56ca853bbd8a49af7f70a59c8e035, type: 2}
+  BikeIcon: {fileID: 21300000, guid: 97d362f73d2eb92fa853ef220cab5a64, type: 3}
+  BikePrefab: {fileID: 6971060412115289314, guid: e0e3fff4689b354c8992e60246d63433, type: 3}
+  Upgrades:
+  - {fileID: 2100000, guid: 5b69c517dc1d54e4f92e47db14f064a9, type: 2}
+  - {fileID: 2100000, guid: f28baf9949fa2d143a6927eae3720bdb, type: 2}
+  - {fileID: 2100000, guid: aad702ce30941e74d98add9eca6a59a4, type: 2}
+  BasePrice: 500
+  BulkQuantity: 10
+  Speed: 16
+  Handling: 30
+  Acceleration: 40
+  Durability: 20
+  Rarity: 0

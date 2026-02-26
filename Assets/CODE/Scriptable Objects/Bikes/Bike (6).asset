@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486746c4babc4770b6142a5f49ce454a, type: 3}
+  m_Name: Bike (6)
+  m_EditorClassIdentifier: Assembly-CSharp::BikeData
+  ID: 5
+  BikeName: Zenith Apex
+  BrandData: {fileID: 11400000, guid: 2cbde2f23fdd61f4593715f32889df60, type: 2}
+  BikeIcon: {fileID: 21300000, guid: 45ba8b088496cb5d883226ecc12861b9, type: 3}
+  BikePrefab: {fileID: 2432818930201132070, guid: 8948c0a4ae78f868fbabf094e7bfcb6d, type: 3}
+  Upgrades:
+  - {fileID: 2100000, guid: 0b422d45e1c08dfb480e6eb4be12d14b, type: 2}
+  - {fileID: 2100000, guid: daf9bf32284ee3140bee940d0bb684af, type: 2}
+  - {fileID: 2100000, guid: e7955766fca58cf57a1b36c093088932, type: 2}
+  BasePrice: 700
+  BulkQuantity: 17
+  Speed: 24
+  Handling: 30
+  Acceleration: 40
+  Durability: 20
+  Rarity: 0
